@@ -1,0 +1,12 @@
+body {
+	background-color: #f2a832;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5em;
+}
+
+.full {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	vertical-align: middle;
+}
