@@ -7,14 +7,14 @@ var buzz = buzzwords[Math.floor(Math.random()*buzzwords.length)];
 var string = "It's like " + comp + " but for " + buzz + ".";
 $("h1").text(string);
 
-$("button").click(function() {
+$("body").click(function() {
 	randomize();
 });
 
 function randomize() {
 	var comp = companies[Math.floor(Math.random() * companies.length)];
 	var buzz = buzzwords[Math.floor(Math.random() * buzzwords.length)];
-	var string = "It's like " + comp + "<br/> but for " + buzz + ".";
+	var string = "It's like " + comp + " but for " + buzz + ".";
 	$("h1").text(string);
 }
 
