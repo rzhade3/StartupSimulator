@@ -2,6 +2,8 @@ body {
 	background-color: #f2a832;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 5em;
+	height: 100vh;
+	overflow: hidden;
 }
 
 div {
@@ -11,5 +13,5 @@ div {
 .full {
 	text-align: center;
 	vertical-align: middle;
-	max-height: 100vh;
+	resize: vertical;
 }
