@@ -1,18 +1,17 @@
 body {
-	background-color: #f2a832;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 4em;
+	background-color: #bbd8b3;
 	max-height: 100vh;
-	overflow: hidden;
+	display: flex;
 }
 
-/*div {
-	vertical-align: middle;
-}*/
+h1 {
+	font-size: 10em;
+	color: black;
+	text-align: center;
+}
 
 .full {
-	margin-top:-10vh;
-	text-align: center;
-	/*vertical-align: middle;*/
-/*	resize: vertical;*/
+	margin: auto;
+	flex-direction: column;
+	align-content: center;
 }

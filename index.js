@@ -3,12 +3,17 @@ var buzzwords = ["machine learning", "blockchain", "social media", "AI", "roboti
 
 $("body").click(function() {
 	randomize();
+}).keypress(function(e) {
+	randomize();
 });
 
 function randomize() {
 	var comp = companies[Math.floor(Math.random() * companies.length)];
+	$("#company").html(comp);
 	var buzz = buzzwords[Math.floor(Math.random() * buzzwords.length)];
-	var string = "It's like <br><u>" + comp + "</u>,<br> but for <br><u>" + buzz + "</u>";
+	$("#technology").html(buzz);
+	// var string = "It's like <br><strong>" + comp + ",</u><br> but for <br><u>" + buzz + "</u>";
+
 	$("h1").html(string);
 }
 
