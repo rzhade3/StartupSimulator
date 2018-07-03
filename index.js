@@ -1,5 +1,5 @@
-var companies = ["Tinder", "Snapchat", "Uber", "Lyft", "Google", "Twitter", "Facebook", "AirBnB", "Apple", "Github", "Amazon", "YouTube", "eBay", "Venmo", "Netflix", "Wikipedia", "Spotify", "Twitch", "Reddit"];
-var buzzwords = ["machine learning", "blockchain", "social media", "AI", "robotics", "Internet of Things", "music technology", "cloud computing", "big data", "deep learning", "data mining", "virtual reality", "cryptocurrency"];
+var companies = ["Tinder", "Snapchat", "Uber", "Lyft", "Google", "Twitter", "Facebook", "AirBnB", "Apple", "Github", "Amazon", "YouTube", "eBay", "Venmo", "Netflix", "Wikipedia", "Spotify", "Twitch", "Reddit", "Microsoft", "LinkedIn", "Slack"];
+var buzzwords = ["machine learning", "blockchain", "social media", "AI", "robotics", "Internet of Things", "music technology", "cloud computing", "big data", "deep learning", "data mining", "virtual reality", "cryptocurrency", "quant trading"];
 
 $("body").click(function() {
 	randomize();
